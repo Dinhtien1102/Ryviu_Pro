@@ -2,6 +2,11 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+.ryviu-wrapper{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 60px;
+}
 .ry-head{
     width: 100%;
     padding-top: 23px;
@@ -12,24 +17,10 @@ body{
     display: inline-block;
     margin-top: 5px;
 }
-a{
-    text-decoration: none;
-}
-img{
-    vertical-align: middle;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
 .ry-menu{
     float: right;
 }
-li {
-    display: inline-block;
-    list-style-type: none;
-}
-li a{
+.ry-menu a{
     color: black;
     font-size: 16px;
     font-weight: 700;
@@ -40,11 +31,9 @@ li a{
     margin: auto;
     max-width: 1200px;
     color: #333;
-    line-height: 1.4;
-    
+    line-height: 1.4; 
 }
 .body-intro{
-    font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin-top: 60px;
@@ -54,13 +43,27 @@ li a{
     float: left;
     padding: 30px 80px 30px 0px;
 }
+.tick{
+    margin-bottom: 15px;
+}
+.tick img{
+    display: inline-block;  
+    margin-right: 10px;
+}
+.tick p{
+    display: inline-block;
+    font-size: 20px;
+}
 .intro-content p{
+    margin: 0;
     color: #317aff;
     text-decoration: underline;
 }
 .intro-title{
     border-bottom: 4px solid #ffc033;
     margin: 0;
+    margin-bottom: 20px;
+    font-size: 42px;
 }
 .intro-title span{
     color: #ffc033;
@@ -91,12 +94,10 @@ li a{
     margin: 0;
 }
 .input-email{
-    font-size: 24px;
     font-weight: 700;
     border: solid 1px #c6c6c6;
     width: 100%;
     border-radius: 5px;
-    border-color: #1a4275;
     font-size: 18px;
     padding: 18px 16px;
     margin: 15px 0 20px;
@@ -159,7 +160,6 @@ li a{
 .show123 p{
     margin: 0;
     font-size: 18px;
-    
 }
 .show123 h3{
     margin:0 0 15px;
@@ -196,4 +196,90 @@ li a{
 }
 .theme{
     float: left;
+}
+.theme .more{
+    margin-right: 5px;
+}
+.title-theme .note{
+    color: #ffc033;
+    font-size: 18px;
+}
+
+
+.customers{
+    float: left;
+    margin-top: 60px;
+}
+.happy{
+    width: 45%;
+    padding: 23px 40px 25px 20px;
+    border-radius: 10px;
+    float: left;
+}
+.happy:hover{
+    background: #fff7e6;
+}
+.customers .feel{
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+}
+.customers p{
+    margin: 0 0 20px;
+}
+.customers h4{
+    margin: 0;
+}
+.customers .star{
+    margin-bottom: 20px;
+}
+.title-happy img{
+    margin: 0 16px 0 6px;
+}
+.name-shop .impor{
+    color: #357af7;
+    text-decoration: underline;
+}
+.name-shop .owner{
+    margin-top: 5px;
+    color: #777;
+}
+.name-shop span{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.connect{
+    float: left;
+    margin-top: 45px;
+    padding: 27px 0 0;
+    border-top: 2px solid #707070;
+}
+.connect-menu li{
+    margin-right: 17px;
+}
+.item-connect{
+    margin-bottom: 25px;
+}
+.item-connect span{
+    font-weight: 700;
+}
+.item-connect a{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #357af7;  
+}
+img{
+    vertical-align: middle;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
 }
