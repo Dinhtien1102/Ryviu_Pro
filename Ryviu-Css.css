@@ -1,6 +1,15 @@
+@font-face{
+    font-family: 'Graphik';
+    src: url("./fonts/Graphik-Medium.otf")
+}
+@font-face{
+    font-family: 'Graphik';
+    src: url("./fonts/Graphik-Medium.otf");
+    font-weight: bold;
+}
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 .ryviu-wrapper{
     display: inline-block;
@@ -215,7 +224,7 @@ body{
     float: left;
 }
 .happy:hover{
-    background: #0077B7;
+    background: rgb(59, 146, 192);
 }
 .customers .feel{
     font-weight: 700;
@@ -284,7 +293,7 @@ li {
 
 @media only screen and (max-width: 1423px) {
     .intro-content{
-       padding: 0;
+       padding: 0 20px 0 0;
    }
    .theme{
        margin: 0;
