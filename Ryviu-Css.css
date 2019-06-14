@@ -295,6 +295,9 @@ li {
     .intro-content{
        padding: 0 20px 0 0;
    }
+   .ry-head{
+       width: 95%;
+   }
    .theme{
        margin: 0;
        text-align: center;
@@ -302,15 +305,38 @@ li {
    .intro-form{
     margin: 0 auto 0;
     max-width: 40%;
-    min-width: 40%;
    }
   }
-
-  @media only screen and (max-width: 1238px){
+@media only screen and (max-width: 1170px){
+    .intro-form{
+        max-width: 450px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 670px){
+    .intro-content{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 1238px){
       .intro-form p{
           font-size: 20px;
       }
       .intro-form .form-button{
           font-size: 18px;
       }
+  }
+  @media only screen and (max-width: 900px){
+    .happy{
+        width: 89%;
+        text-align: center;
+        }
+  }
+  /* Repoinsive mobile */
+  @media only screen and (max-width: 375px){
+    .ry-body{
+        width: 100%;
+        margin: 0;
+      }
+
   }
