@@ -176,7 +176,6 @@ body{
     width: 100%;
 }
 
-
 .partners{
     margin-top: 60px;
     float: left;
@@ -224,7 +223,7 @@ body{
     float: left;
 }
 .happy:hover{
-    background: rgb(59, 146, 192);
+    background: #f2f2f2;
 }
 .customers .feel{
     font-weight: 700;
