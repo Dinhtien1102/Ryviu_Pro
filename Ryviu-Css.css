@@ -290,26 +290,11 @@ li {
     list-style-type: none;
 }
 
-@media only screen and (max-width: 1423px) {
+@media only screen and (max-width: 375px) {
     .intro-content{
-       padding: 0 20px 0 0;
-   }
-   .theme{
-       margin: 0;
-       text-align: center;
-   }  
-   .intro-form{
-    margin: 0 auto 0;
-    max-width: 40%;
-    min-width: 40%;
-   }
-  }
-
-  @media only screen and (max-width: 1238px){
-      .intro-form p{
-          font-size: 20px;
-      }
-      .intro-form .form-button{
-          font-size: 18px;
-      }
-  }
+        padding: 0;
+    }
+    .ry-menu li a{
+        display: none;
+    }
+} 
