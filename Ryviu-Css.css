@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Graphik';
-    src: url("./fonts/Graphik-Medium.otf")
+    src: url("./fonts/Graphik-Regular.otf")
 }
 @font-face{
     font-family: 'Graphik';
@@ -182,7 +182,6 @@ body{
 }
 .title-theme h2{
     font-size: 32px;
-    font-weight: 400;
     margin: 0;
 }
 .title-theme{
@@ -288,11 +287,32 @@ ul{
 li {
     display: inline-block;
     list-style-type: none;
+    box-sizing: border-box;
 }
-.menu-mobi{
+.list-menu-mobi{
     display: none;
+    width: 150px;
+    padding: 10px 5px;
+    background: white;
+    border: solid 1px #ddd;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+
 }
-@media only screen and (max-width: 375px) {
+.button-menu{
+    display: none;
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 30px;
+    background: #317bff;
+}
+.button-menu svg{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+/* Style for mobile */
+@media only screen and (max-width: 430px) {
     .ry-head{
         width: 95%; 
     }
@@ -304,18 +324,29 @@ li {
     }
     .list-menu-mobi{
         display: none;
+        border-radius: 5px;
+    }
+    .list-menu-mobi li{
+        width: 100%;
+        padding: 7px 8px;
+        font-weight: 700;
+    }
+    .list-menu-mobi a{
+        color: #333;
     }
     .menu-mobi:hover .list-menu-mobi{
         position: absolute;
         display: block;
+        top: 70px;
+        right: 8px;
+        box-sizing: border-box;
     }
-    .menu-mobi{
+    .button-menu{
         position: relative;
         display: block;
-        float: right;
     }
-    .menu-mobi .icon-menu{
-        width: 20px;
+    .menu-mobi{
+        float: right;
     }
     .intro-content{
         margin-bottom: 30px;
@@ -360,6 +391,9 @@ li {
     .show123{
         width: 100%;
         margin: 0 0 40px 0;
+    }
+    .img-show{
+        text-align: center;
     }
     .show123 p{
         font-size: 16px;
