@@ -289,15 +289,6 @@ li {
     list-style-type: none;
     box-sizing: border-box;
 }
-.list-menu-mobi{
-    display: none;
-    width: 150px;
-    padding: 10px 5px;
-    background: white;
-    border: solid 1px #ddd;
-    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
-
-}
 .button-menu{
     display: none;
     font-size: 14px;
@@ -323,8 +314,17 @@ li {
         display: none;
     }
     .list-menu-mobi{
+        position: absolute;
         display: none;
         border-radius: 5px;
+        top: 70px;
+        right: 8px;
+        box-sizing: border-box;
+        width: 150px;
+        padding: 10px 5px;
+        background: white;
+        border: solid 1px #ddd;
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
     }
     .list-menu-mobi li{
         width: 100%;
@@ -333,13 +333,6 @@ li {
     }
     .list-menu-mobi a{
         color: #333;
-    }
-    .menu-mobi:hover .list-menu-mobi{
-        position: absolute;
-        display: block;
-        top: 70px;
-        right: 8px;
-        box-sizing: border-box;
     }
     .button-menu{
         position: relative;
